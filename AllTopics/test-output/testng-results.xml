@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="29030" started-at="2019-07-15T17:14:32Z" finished-at="2019-07-15T17:15:01Z">
+  <suite name="Default suite" duration-ms="9132" started-at="2019-07-15T17:29:04Z" finished-at="2019-07-15T17:29:13Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="29030" started-at="2019-07-15T17:14:32Z" finished-at="2019-07-15T17:15:01Z">
-      <class name="AllTopics.LaunchinChromeBrowser">
-        <test-method status="PASS" signature="LaunchChrome()[pri:0, instance:AllTopics.LaunchinChromeBrowser@32e6e9c3]" name="LaunchChrome" duration-ms="28961" started-at="2019-07-15T22:44:32Z" finished-at="2019-07-15T22:45:01Z">
+    <test name="Default test" duration-ms="9132" started-at="2019-07-15T17:29:04Z" finished-at="2019-07-15T17:29:13Z">
+      <class name="AllTopics.LaunchingInternetExplorerBrowser">
+        <test-method status="PASS" signature="LaunchIE()[pri:0, instance:AllTopics.LaunchingInternetExplorerBrowser@32e6e9c3]" name="LaunchIE" duration-ms="9059" started-at="2019-07-15T22:59:04Z" finished-at="2019-07-15T22:59:13Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchChrome -->
-      </class> <!-- AllTopics.LaunchinChromeBrowser -->
+        </test-method> <!-- LaunchIE -->
+      </class> <!-- AllTopics.LaunchingInternetExplorerBrowser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
