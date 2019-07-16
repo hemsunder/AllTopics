@@ -7,7 +7,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class HandlingFrames {
+public class HandlingFrames4 {
 	
 	WebDriver driver;
 	

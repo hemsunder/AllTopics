@@ -2,40 +2,43 @@ package AllTopics;
 
 import java.util.concurrent.TimeUnit;
 
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.interactions.Actions;
 import org.testng.annotations.Test;
 
-public class MouseMovement {
-	WebDriver driver;
+public class HandlingAlerts3 {
+	
+WebDriver driver;
 	
 	@Test
-	public void mousehovering() throws Exception{
+	public void HandleAlert() throws Exception{
 		
 		System.setProperty("webdriver.chrome.driver", "D:/Automation Softwares/Selenium Drivers/"
 				+ "chromedriver_win32 latest version 2.36/chromedriver.exe");
 		
 		driver=new ChromeDriver();
 		driver.manage().window().maximize();
-		driver.manage().deleteAllCookies();
 		driver.manage().timeouts().pageLoadTimeout(30, TimeUnit.SECONDS);
 		driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
-		driver.get("https://www.spicejet.com/");
-		
-		WebElement element=driver.findElement(By.xpath("//a[@id='ctl00_HyperLinkLogin']"));
-		Actions act=new Actions(driver);
-		act.moveToElement(element).build().perform();
+		driver.manage().deleteAllCookies();
+		driver.get("https://mail.rediff.com/cgi-bin/login.cgi");
+		driver.findElement(By.xpath("//input[@value='Go']")).click();
+		Alert alt=driver.switchTo().alert();
 		Thread.sleep(3000);
-		driver.findElement(By.xpath("//a[text()='SME Traveller']")).click();
+		String text=alt.getText();
+		if (text.equals("Please enter a valid user name")){
+			System.out.println("Correct alert message");
+		}
+		else {
+			System.out.println("Alert message is wrong");
+		}
+		
+		alt.accept();
 		Thread.sleep(3000);
-		
-		driver.quit();
-		
-		
-		
+		driver.close();
 	}
+
 
 }
