@@ -13,7 +13,7 @@ public class HandlingAlerts {
 WebDriver driver;
 	
 	@Test
-	public void LaunchChrome() throws Exception{
+	public void HandleAlert() throws Exception{
 		
 		System.setProperty("webdriver.chrome.driver", "D:/Automation Softwares/Selenium Drivers/"
 				+ "chromedriver_win32 latest version 2.36/chromedriver.exe");

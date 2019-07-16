@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="40201" started-at="2019-07-16T02:15:18Z" finished-at="2019-07-16T02:15:58Z">
+  <suite name="Default suite" duration-ms="27268" started-at="2019-07-16T16:53:44Z" finished-at="2019-07-16T16:54:11Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="40201" started-at="2019-07-16T02:15:18Z" finished-at="2019-07-16T02:15:58Z">
-      <class name="AllTopics.HandlingAlerts">
-        <test-method status="PASS" signature="LaunchChrome()[pri:0, instance:AllTopics.HandlingAlerts@32e6e9c3]" name="LaunchChrome" duration-ms="40047" started-at="2019-07-16T07:45:18Z" finished-at="2019-07-16T07:45:58Z">
+    <test name="Default test" duration-ms="27268" started-at="2019-07-16T16:53:44Z" finished-at="2019-07-16T16:54:11Z">
+      <class name="AllTopics.HandlingFrames">
+        <test-method status="PASS" signature="HandleFrame()[pri:0, instance:AllTopics.HandlingFrames@32e6e9c3]" name="HandleFrame" duration-ms="27202" started-at="2019-07-16T22:23:44Z" finished-at="2019-07-16T22:24:11Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchChrome -->
-      </class> <!-- AllTopics.HandlingAlerts -->
+        </test-method> <!-- HandleFrame -->
+      </class> <!-- AllTopics.HandlingFrames -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

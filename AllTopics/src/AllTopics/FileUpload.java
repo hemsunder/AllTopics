@@ -11,7 +11,7 @@ public class FileUpload {
 WebDriver driver;
 	
 	@Test
-	public void LaunchChrome(){
+	public void FileUploading(){
 		
 		System.setProperty("webdriver.chrome.driver", "D:/Automation Softwares/Selenium Drivers/"
 				+ "chromedriver_win32 latest version 2.36/chromedriver.exe");
