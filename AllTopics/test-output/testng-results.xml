@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="45553" started-at="2019-07-17T03:09:59Z" finished-at="2019-07-17T03:10:45Z">
+  <suite name="Default suite" duration-ms="38542" started-at="2019-07-17T03:41:58Z" finished-at="2019-07-17T03:42:37Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="45553" started-at="2019-07-17T03:09:59Z" finished-at="2019-07-17T03:10:45Z">
-      <class name="AllTopics.ExplicitWait">
-        <test-method status="PASS" signature="explicitwait()[pri:0, instance:AllTopics.ExplicitWait@2344fc66]" name="explicitwait" duration-ms="45485" started-at="2019-07-17T08:39:59Z" finished-at="2019-07-17T08:40:45Z">
+    <test name="Default test" duration-ms="38542" started-at="2019-07-17T03:41:58Z" finished-at="2019-07-17T03:42:37Z">
+      <class name="AllTopics.WindowHandlingPart1">
+        <test-method status="PASS" signature="windowhandle()[pri:0, instance:AllTopics.WindowHandlingPart1@32e6e9c3]" name="windowhandle" duration-ms="38476" started-at="2019-07-17T09:11:58Z" finished-at="2019-07-17T09:12:37Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- explicitwait -->
-      </class> <!-- AllTopics.ExplicitWait -->
+        </test-method> <!-- windowhandle -->
+      </class> <!-- AllTopics.WindowHandlingPart1 -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
