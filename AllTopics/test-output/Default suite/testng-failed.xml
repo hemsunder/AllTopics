@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="AllTopics.Navigations">
+      <class name="FailedTestScreenshot.TakeScreenshot">
         <methods>
-          <include name="navigate"/>
+          <include name="takescreenshot"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- AllTopics.Navigations -->
+      </class> <!-- FailedTestScreenshot.TakeScreenshot -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

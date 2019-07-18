@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [AllTopics by packages]">
-  <test name="RetryLogic(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="RetryLogic.Tests">
+      <class name="FailedTestScreenshot.TakeScreenshot">
         <methods>
-          <include name="test1"/>
-          <include name="test2"/>
+          <include name="takescreenshot"/>
+          <include name="teardown"/>
         </methods>
-      </class> <!-- RetryLogic.Tests -->
+      </class> <!-- FailedTestScreenshot.TakeScreenshot -->
     </classes>
-  </test> <!-- RetryLogic(failed) -->
-</suite> <!-- Failed suite [AllTopics by packages] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
