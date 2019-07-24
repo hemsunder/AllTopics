@@ -8,7 +8,7 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.testng.annotations.Test;
 
-public class HighlightElements {
+public class HighlightElementsAndClickByJS {
 	WebDriver driver;
 	
 	@Test
@@ -35,11 +35,17 @@ public class HighlightElements {
 		store.sendKeys("521");
 		WebElement submit=driver.findElement(By.xpath("//input[@value='Submit']"));
 		highlightbyJS(driver, submit);
-		submit.click();
+		ClickbyJS(driver, submit);
 	}
 
 	public static void highlightbyJS(WebDriver driver, WebElement element){
 		JavascriptExecutor js=(JavascriptExecutor)driver;
 		js.executeScript("arguments[0].setAttribute('style', 'background:yellow; border: 2px solid red;');", element);
+		js.executeScript("arguments[0].setAttribute('style', 'border: 2px solid white')", element);
+	}
+	
+	public static void ClickbyJS(WebDriver driver, WebElement element){
+		JavascriptExecutor js=(JavascriptExecutor)driver;
+		js.executeScript("arguments[0].click();", element);
 	}
 }
