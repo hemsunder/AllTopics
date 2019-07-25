@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="28652" started-at="2019-07-24T16:43:50Z" finished-at="2019-07-24T16:44:19Z">
+  <suite name="Default suite" duration-ms="15682" started-at="2019-07-25T03:13:17Z" finished-at="2019-07-25T03:13:33Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="28652" started-at="2019-07-24T16:43:50Z" finished-at="2019-07-24T16:44:19Z">
-      <class name="AllTopics.DatePickerByJS">
-        <test-method status="PASS" signature="datepicker()[pri:0, instance:AllTopics.DatePickerByJS@2344fc66]" name="datepicker" duration-ms="28550" started-at="2019-07-24T22:13:50Z" finished-at="2019-07-24T22:14:19Z">
+    <test name="Default test" duration-ms="15682" started-at="2019-07-25T03:13:17Z" finished-at="2019-07-25T03:13:33Z">
+      <class name="AllTopics.BootstrapDropDowns">
+        <test-method status="PASS" signature="Bootstraphandling()[pri:0, instance:AllTopics.BootstrapDropDowns@32e6e9c3]" name="Bootstraphandling" duration-ms="15618" started-at="2019-07-25T08:43:17Z" finished-at="2019-07-25T08:43:33Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- datepicker -->
-      </class> <!-- AllTopics.DatePickerByJS -->
+        </test-method> <!-- Bootstraphandling -->
+      </class> <!-- AllTopics.BootstrapDropDowns -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
