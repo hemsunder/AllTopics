@@ -52,6 +52,7 @@ WebDriver driver;
 		String space = " ";
 		username_tb.sendKeys(usernamedata, space, usernamedata2, Keys.TAB);
 		
+		// All ways of sendkeys is done
 		
 	}
 }
