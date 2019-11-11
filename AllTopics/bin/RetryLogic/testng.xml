@@ -1,0 +1,14 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+  
+<suite name="Suite1" verbose="1" >
+
+<listeners>
+    <listener class-name="RetryLogic.MyTransformer" />
+  </listeners>
+
+  <test name="RetryLogicTest" >
+    <classes>
+       <class name="RetryLogic.Tests" />
+    </classes>
+  </test>
+</suite>
