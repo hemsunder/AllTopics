@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="AllTopics.SendkeysCharacterSequence">
+      <class name="AllTopics.LocatorsPreference">
         <methods>
-          <include name="LaunchChrome"/>
+          <include name="locatorsuse"/>
         </methods>
-      </class> <!-- AllTopics.SendkeysCharacterSequence -->
+      </class> <!-- AllTopics.LocatorsPreference -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

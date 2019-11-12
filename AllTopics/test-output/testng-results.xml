@@ -2,16 +2,16 @@
 <testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="6975" started-at="2019-11-11T16:38:40Z" finished-at="2019-11-11T16:38:47Z">
+  <suite name="Default suite" duration-ms="7549" started-at="2019-11-12T03:37:31Z" finished-at="2019-11-12T03:37:39Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="6975" started-at="2019-11-11T16:38:40Z" finished-at="2019-11-11T16:38:47Z">
-      <class name="AllTopics.SendkeysCharacterSequence">
-        <test-method status="PASS" signature="LaunchChrome()[pri:0, instance:AllTopics.SendkeysCharacterSequence@5afa04c]" name="LaunchChrome" duration-ms="6954" started-at="2019-11-11T22:08:40Z" finished-at="2019-11-11T22:08:47Z">
+    <test name="Default test" duration-ms="7549" started-at="2019-11-12T03:37:31Z" finished-at="2019-11-12T03:37:39Z">
+      <class name="AllTopics.LocatorsPreference">
+        <test-method status="PASS" signature="locatorsuse()[pri:0, instance:AllTopics.LocatorsPreference@5afa04c]" name="locatorsuse" duration-ms="7532" started-at="2019-11-12T09:07:31Z" finished-at="2019-11-12T09:07:39Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- LaunchChrome -->
-      </class> <!-- AllTopics.SendkeysCharacterSequence -->
+        </test-method> <!-- locatorsuse -->
+      </class> <!-- AllTopics.LocatorsPreference -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
