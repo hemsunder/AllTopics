@@ -26,26 +26,26 @@ public class LocatorsPreference {
 		
 		driver.get("https://login.yahoo.com/");
 		
-		//1. id
-		//driver.findElement(By.id("login-username")).sendKeys("hemsunder");
+		//1. id--I
+		driver.findElement(By.id("login-username")).sendKeys("hemsunder");
 		
-		//2. name
-		//driver.findElement(By.name("username")).sendKeys("hemsunder");
+		//2. name--I
+		driver.findElement(By.name("username")).sendKeys("hemsunder");
 		
-		//3. xpath
-		//driver.findElement(By.xpath("//input[@name='username']")).sendKeys("hemsunder");
+		//3. xpath--II
+		driver.findElement(By.xpath("//input[@name='username']")).sendKeys("hemsunder");
 		
 		//4. classname
 		driver.findElement(By.className("phone-no")).sendKeys("hemsunder");
 		
-		//5. cssselector
-		//driver.findElement(By.cssSelector("#login-username")).sendKeys("hemsunder");
+		//5. cssselector--II
+		driver.findElement(By.cssSelector("#login-username")).sendKeys("hemsunder");
 		
 		//6. linktext
-		//driver.findElement(By.linkText("Difficulty signing in?")).click();
+		driver.findElement(By.linkText("Difficulty signing in?")).click();
 		
 		//7. partial linktext
-		//driver.findElement(By.partialLinkText("Difficulty")).click();
+		driver.findElement(By.partialLinkText("Difficulty")).click();
 		
 
 }
