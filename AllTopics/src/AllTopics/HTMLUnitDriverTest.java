@@ -3,22 +3,17 @@ package AllTopics;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.chrome.ChromeOptions;
+import org.openqa.selenium.htmlunit.HtmlUnitDriver;
 
-public class HeadlessChromeTest {
+
+public class HTMLUnitDriverTest {
 
 	static WebDriver driver;
 	
-	public static void main(String[] args) throws Exception {
-		
+	public static void main(String[] args) {
 		System.setProperty("webdriver.chrome.driver", "C:\\Softwares&Drivers\\WebDriver\\chromedriver_win32\\chromedriver.exe");
 		
-		ChromeOptions options = new ChromeOptions();
-		//options.addArguments("window-size=1400,800");
-		options.addArguments("headless");
-	
-		driver=new ChromeDriver(options);
+		driver=new HtmlUnitDriver();
 		driver.manage().window().maximize();
 		driver.manage().deleteAllCookies();
 		
