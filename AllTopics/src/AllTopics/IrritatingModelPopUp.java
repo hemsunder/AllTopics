@@ -30,7 +30,7 @@ public class IrritatingModelPopUp {
 		//Pop-up is in frame so first we have to switch to frame
 		driver.switchTo().frame("CcPC2NR-1573701784898");
 		Actions act = new Actions(driver);
-		// To mousehover on chat pop-up so that we cross mark will be displayed
+		// To mousehover on chat pop-up so that cross mark will be displayed
 		act.moveToElement(driver.findElement(By.id("bubble-image"))).build().perform();
 		// To click on cross mark so that irritating chat pop-up will be closed
 		driver.findElement(By.id("tawkchat-chat-bubble-close")).click();
