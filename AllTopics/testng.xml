@@ -1,0 +1,16 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+  
+<suite name="Qfund Application" verbose="1" >
+  <test name="Qfund Features" >
+  
+  <parameter name="url" value="https://qclocalpreprod.qfund.net/cc/demoIndex.do"/>
+  <parameter name="username" value="admin"/>
+  <parameter name="password" value="1234"/>
+  <parameter name="storeid" value="521"/>
+  
+    <classes>
+       <class name="ParameterFromtestNG.ParameterPassing" />
+    </classes>
+    
+  </test>
+</suite>
