@@ -3,11 +3,12 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test name="Default test(failed)">
     <classes>
-      <class name="AllTopics.LocatorsPreference">
+      <class name="Assertions.MyTests">
         <methods>
-          <include name="locatorsuse"/>
+          <include name="test2"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- AllTopics.LocatorsPreference -->
+      </class> <!-- Assertions.MyTests -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

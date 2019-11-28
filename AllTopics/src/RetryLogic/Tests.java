@@ -7,12 +7,14 @@ import org.testng.annotations.Test;
 //@Listeners(RetryLogic.MyTransformer.class)
 public class Tests {
 	
-	@Test(retryAnalyzer=RetryLogic.RetryAnalyzer.class)
+	//@Test(retryAnalyzer=RetryLogic.RetryAnalyzer.class)
+	@Test
 	public void test1(){
 		Assert.assertEquals(true, false);
 	}
 	
-	@Test(retryAnalyzer=RetryLogic.RetryAnalyzer.class)
+	//@Test(retryAnalyzer=RetryLogic.RetryAnalyzer.class)
+	@Test
 	public void test2(){
 		Assert.assertEquals(true, false);
 	}

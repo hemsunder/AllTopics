@@ -1,13 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [AllTopics by packages]">
-  <test name="ParameterFromtestNG(failed)">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
     <classes>
-      <class name="ParameterFromtestNG.ParameterPassing">
+      <class name="Assertions.MyTests">
         <methods>
-          <include name="parameterpass"/>
+          <include name="test2"/>
+          <include name="test1"/>
         </methods>
-      </class> <!-- ParameterFromtestNG.ParameterPassing -->
+      </class> <!-- Assertions.MyTests -->
     </classes>
-  </test> <!-- ParameterFromtestNG(failed) -->
-</suite> <!-- Failed suite [AllTopics by packages] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
