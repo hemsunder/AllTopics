@@ -11,7 +11,7 @@ public class HTMLUnitDriverTest {
 	static WebDriver driver;
 	
 	public static void main(String[] args) {
-		System.setProperty("webdriver.chrome.driver", "C:\\Softwares&Drivers\\WebDriver\\chromedriver_win32\\chromedriver.exe");
+		//System.setProperty("webdriver.chrome.driver", "C:\\Softwares&Drivers\\WebDriver\\chromedriver_win32\\chromedriver.exe");
 		
 		driver=new HtmlUnitDriver();
 		driver.manage().window().maximize();
